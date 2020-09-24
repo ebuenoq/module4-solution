@@ -30,7 +30,7 @@ const byeSpeaker = {
 		var firstLetter = name.charAt(0).toLowerCase();
 		if (firstLetter === 'j') {
 			console.log(byeSpeaker.speak(name));
-			document.write(byeSpeaker.speak(name) + '<br>');
+			document.write('<div class="col-lg-4 col-md-12"><div class="section"><div class="title">' + byeSpeaker.speak(name) + '</div></div></div>');
 		} else {
 			console.log(helloSpeaker.speak(name));
 			document.write(helloSpeaker.speak(name + '<br>'));
