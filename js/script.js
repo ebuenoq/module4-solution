@@ -33,7 +33,7 @@ const byeSpeaker = {
 			document.write('<div class="col-lg-4 col-md-12"><div class="section"><div class="title">' + byeSpeaker.speak(name) + '</div></div></div>');
 		} else {
 			console.log(helloSpeaker.speak(name));
-			document.write(helloSpeaker.speak(name + '<br>'));
+			document.write('<div class="col-lg-4 col-md-12"><div class="section"><div class="title">' + helloSpeaker.speak(name + '</div></div></div>'));
 		}
 	}
 })();
